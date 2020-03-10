@@ -65,7 +65,13 @@
 			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
-
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-34-187.ec2.internal-snapshots</name>
+        <url>http://34.230.28.112:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
